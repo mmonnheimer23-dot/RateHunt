@@ -1,0 +1,1 @@
+export default function manifest(){return {name:'RateHunt',short_name:'RateHunt',description:'Personalized auto and home insurance planning estimates for New Mexico.',start_url:'/',display:'standalone',background_color:'#f3f6f8',theme_color:'#082f4f',orientation:'portrait-primary',icons:[{src:'/icon.svg',sizes:'any',type:'image/svg+xml',purpose:'any'}]}}

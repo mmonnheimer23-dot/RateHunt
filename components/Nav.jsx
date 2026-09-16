@@ -1,1 +1,1 @@
-export default function Nav({tab,setTab}){const items=[['hunt','⌂','Hunt'],['hunts','◷','My Hunts'],['saved','♡','Saved'],['more','☰','More']];return <nav>{items.map(x=><button key={x[0]} className={tab===x[0]?'active':''} onClick={()=>setTab(x[0])}>{x[1]}<small>{x[2]}</small></button>)}</nav>}
+export default function Nav({tab,setTab}){const items=[['hunt','⌂','Hunt'],['saved','♡','Saved'],['more','☰','More']];return <nav>{items.map(x=><button key={x[0]} className={tab===x[0]?'active':''} onClick={()=>setTab(x[0])}>{x[1]}<small>{x[2]}</small></button>)}</nav>}
